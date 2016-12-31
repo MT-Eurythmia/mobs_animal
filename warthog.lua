@@ -58,7 +58,7 @@ mobs:register_mob("mobs_animal:pumba", {
 
 mobs:spawn({
 	name = "mobs_animal:pumba",
-	nodes = {"default:dirt_with_dry_grass", "ethereal:mushroom_dirt"},
+	nodes = {"default:dirt_with_dry_grass", "default:dirt_with_grass"},
 	min_light = 10,
 	chance = 15000,
 	min_height = 0,
