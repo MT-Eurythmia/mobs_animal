@@ -1,6 +1,7 @@
 
 local S = mobs.intllib
 
+
 -- Kitten by Jordach / BFD
 
 mobs:register_mob("mobs_animal:kitten", {
@@ -53,6 +54,7 @@ mobs:register_mob("mobs_animal:kitten", {
 	end
 })
 
+
 mobs:spawn({
 	name = "mobs_animal:kitten",
 	nodes = {"default:dirt_with_grass", "ethereal:grove_dirt"},
@@ -63,7 +65,8 @@ mobs:spawn({
 	day_toggle = true,
 })
 
+
 mobs:register_egg("mobs_animal:kitten", S("Kitten"), "mobs_kitten_inv.png", 0)
 
--- compatibility
-mobs:alias_mob("mobs:kitten", "mobs_animal:kitten")
+
+mobs:alias_mob("mobs:kitten", "mobs_animal:kitten") -- compatibility
