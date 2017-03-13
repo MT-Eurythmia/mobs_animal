@@ -63,11 +63,12 @@ mobs:register_mob("mobs_animal:penguin", {
 })
 
 
+-- Mynetest: Better spawn chance (far too rare originally)
 mobs:spawn({
 	name = "mobs_animal:penguin",
 	nodes = {"default:snowblock"},
 	min_light = 10,
-	chance = 20000,
+	chance = 10000,
 	min_height = 0,
 	day_toggle = true,
 })
